@@ -22210,14 +22210,14 @@ msgstr "ໃນກໍລະນີສ່ວນໃຫຍ່ຕົວເລືອກ
 #: src/usr/local/www/firewall_nat_out_edit.php:479
 msgid ""
 "The interface on which traffic is matched as it exits the firewall. In most "
-"cases this is "WAN" or another externally-connected interface."
-msgstr "ອິນເຕີເຟສທີ່ການຈະລາຈອນຖືກຈັບຄູ່ເມື່ອມັນອອກຈາກໄຟວໍ. ໃນກໍລະນີສ່ວນໃຫຍ່ແມ່ນ "WAN" ຫຼືອິນເຕີເຟສອື່ນທີ່ເຊື່ອມຕໍ່ພາຍນອກ."
+"cases this is \"WAN\" or another externally-connected interface."
+msgstr "ອິນເຕີເຟສທີ່ການຈະລາຈອນຖືກຈັບຄູ່ເມື່ອມັນອອກຈາກໄຟວໍ. ໃນກໍລະນີສ່ວນໃຫຍ່ແມ່ນ \"WAN\" ຫຼືອິນເຕີເຟສອື່ນທີ່ເຊື່ອມຕໍ່ພາຍນອກ."
 
 #: src/usr/local/www/firewall_nat_out_edit.php:499
 msgid ""
-"Choose which protocol this rule should match. In most cases "any" is "
+"Choose which protocol this rule should match. In most cases \"any\" is "
 "specified."
-msgstr "ເລືອກໂປຣໂຕຄໍທີ່ກົດລະບຽບນີ້ຄວນຈັບຄູ່. ໃນກໍລະນີສ່ວນໃຫຍ່ "ໃດໆ" ຖືກລະບຸ."
+msgstr "ເລືອກໂປຣໂຕຄໍທີ່ກົດລະບຽບນີ້ຄວນຈັບຄູ່. ໃນກໍລະນີສ່ວນໃຫຍ່ \"ໃດໆ\" ຖືກລະບຸ."
 
 #: src/usr/local/www/firewall_nat_out_edit.php:501
 msgid "*Source"
@@ -22340,18 +22340,18 @@ msgstr "ຄີ Source Hash"
 #: src/usr/local/www/firewall_nat_out_edit.php:608
 msgid ""
 "The key that is fed to the hashing algorithm in hex format, preceeded by "
-""0x", or any string. A non-hex string is hashed using md5 to a hexadecimal "
+"\"0x\", or any string. A non-hex string is hashed using md5 to a hexadecimal "
 "key. Defaults to a randomly generated value."
-msgstr "ຄີທີ່ຖືກປ້ອນໃຫ້ກັບອັລກໍຣິທຶມ hashing ໃນຮູບແບບເລກຖານສິບຫົກ, ນຳໜ້າດ້ວຍ "0x", ຫຼືສະຕຣິງໃດໆ. ສະຕຣິງທີ່ບໍ່ແມ່ນເລກຖານສິບຫົກຖືກ hashed ໂດຍໃຊ້ md5 ເປັນຄີເລກຖານສິບຫົກ. ຄ່າເລີ່ມຕົ້ນເປັນຄ່າທີ່ສ້າງແບບສຸ່ມ."
+msgstr "ຄີທີ່ຖືກປ້ອນໃຫ້ກັບອັລກໍຣິທຶມ hashing ໃນຮູບແບບເລກຖານສິບຫົກ, ນຳໜ້າດ້ວຍ \"0x\", ຫຼືສະຕຣິງໃດໆ. ສະຕຣິງທີ່ບໍ່ແມ່ນເລກຖານສິບຫົກຖືກ hashed ໂດຍໃຊ້ md5 ເປັນຄີເລກຖານສິບຫົກ. ຄ່າເລີ່ມຕົ້ນເປັນຄ່າທີ່ສ້າງແບບສຸ່ມ."
 
 #: src/usr/local/www/firewall_nat_out_edit.php:618
 #, php-format
 msgid ""
 "Enter the external source %1$sPort or Range%2$s used for remapping the "
 "original source port on connections matching the rule. %3$sPort ranges are a "
-"low port and high port number separated by ":".%4$sLeave blank when "
+"low port and high port number separated by \":\".%4$sLeave blank when "
 "%1$sStatic Port%2$s is checked."
-msgstr "ປ້ອນແຫຼ່ງພາຍນອກ %1$sພອດ ຫຼືຂອບເຂດ%2$s ທີ່ໃຊ້ສຳລັບການແມັບພອດແຫຼ່ງເດີມຄືນໃໝ່ໃນການເຊື່ອມຕໍ່ທີ່ກົງກັບກົດລະບຽບ. %3$sຂອບເຂດພອດແມ່ນພອດຕ່ຳ ແລະເລກພອດສູງທີ່ແຍກດ້ວຍ ":".%4$sປ່ອຍຫວ່າງໄວ້ເມື່ອ %1$sພອດສະຖິດ%2$s ຖືກກວດສອບ."
+msgstr "ປ້ອນແຫຼ່ງພາຍນອກ %1$sພອດ ຫຼືຂອບເຂດ%2$s ທີ່ໃຊ້ສຳລັບການແມັບພອດແຫຼ່ງເດີມຄືນໃໝ່ໃນການເຊື່ອມຕໍ່ທີ່ກົງກັບກົດລະບຽບ. %3$sຂອບເຂດພອດແມ່ນພອດຕ່ຳ ແລະເລກພອດສູງທີ່ແຍກດ້ວຍ \":\".%4$sປ່ອຍຫວ່າງໄວ້ເມື່ອ %1$sພອດສະຖິດ%2$s ຖືກກວດສອບ."
 
 #: src/usr/local/www/firewall_nat_out_edit.php:633
 msgid "Misc"
@@ -22640,9 +22640,9 @@ msgstr "*ຊື່ນາມມະຍົດ"
 #: src/usr/local/www/firewall_aliases_import.php:250
 #: src/usr/local/www/firewall_aliases_edit.php:288
 msgid ""
-"The name of the alias may only consist of the characters "a-z, A-Z, 0-9 and "
-"_"."
-msgstr "ຊື່ຂອງນາມມະຍົດອາດຈະປະກອບດ້ວຍຕົວອັກສອນ "a-z, A-Z, 0-9 ແລະ _" ເທົ່ານັ້ນ."
+"The name of the alias may only consist of the characters \"a-z, A-Z, 0-9 and "
+"_\"."
+msgstr "ຊື່ຂອງນາມມະຍົດອາດຈະປະກອບດ້ວຍຕົວອັກສອນ \"a-z, A-Z, 0-9 ແລະ _\" ເທົ່ານັ້ນ."
 
 #: src/usr/local/www/firewall_aliases_import.php:262
 msgid "*Aliases to import"
@@ -22865,15 +22865,9 @@ msgstr "URL ປ່ຽນເສັ້ນທາງກ່ອນການກວດ�
 msgid ""
 "Set a default redirection URL. Visitors will be redirected to this URL after "
 "authentication only if the captive portal doesn't know where to redirect "
-"them. This field will be accessible through PORTAL 
-R
-​
- EDIRURL variable in "
+"them. This field will be accessible through $PORTAL_REDIRURL$ variable in "
 "captiveportal's HTML pages."
-msgstr "ຕັ້ງ URL ປ່ຽນເສັ້ນທາງເລີ່ມຕົ້ນ. ຜູ້ເຂົ້າຊົມຈະຖືກປ່ຽນເສັ້ນທາງໄປຫາ URL ນີ້ຫຼັງຈາກການກວດສອບສິດເທົ່ານັ້ນ ຖ້າ captive portal ບໍ່ຮູ້ວ່າຈະປ່ຽນເສັ້ນທາງພວກເຂົາໄປໃສ. ຊ່ອງນີ້ຈະສາມາດເຂົ້າເຖິງໄດ້ຜ່ານຕົວແປ PORTAL 
-R
-​
- EDIRURL ໃນໜ້າ HTML ຂອງ captive portal."
+"ຕັ້ງຄ່າ URL ການປ່ຽນເສັ້ນທາງເລີ່ມຕົ້ນ. ຜູ້ເຂົ້າຊົມຈະຖືກປ່ຽນເສັ້ນທາງໄປຫາ URL ນີ້ຫຼັງຈາກການກວດສອບພຽງແຕ່ຖ້າ captive portal ບໍ່ຮູ້ວ່າຈະປ່ຽນເສັ້ນທາງພວກເຂົາໄປໃສ. ຟິວນີ້ຈະສາມາດເຂົ້າເຖິງໄດ້ຜ່ານຕົວແປ $PORTAL_REDIRURL$ ໃນໜ້າ HTML ຂອງ captiveportal."
 
 #: src/usr/local/www/services_captiveportal.php:631
 msgid "After authentication Redirection URL"
