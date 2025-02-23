@@ -18015,8 +18015,8 @@ msgstr "NetBIOS Scope ID ໃຫ້ບໍລິການການຕັ້ງຊ�
 msgid ""
 "Enter any additional options to add for this client specific override, "
 "separated by a semicolon. %1$sEXAMPLE: push \"route 10.0.0.0 255.255.255."
-"0"; "
-msgstr "ປ້ອນຕົວເລືອກເພີ່ມເຕີມໃດໆທີ່ຈະເພີ່ມສຳລັບການຂຽນທັບສະເພາະລູກຄ້ານີ້, ແຍກດ້ວຍເຄື່ອງໝາຍ semicolon. %1$sຕົວຢ່າງ: push \"route 10.0.0.0 255.255.255.0";"
+"0\";"
+"ປ້ອນຕົວເລືອກເພີ່ມເຕີມໃດໆທີ່ຈະເພີ່ມສໍາລັບການຂຽນທັບສະເພາະລູກຄ້ານີ້, ແຍກດ້ວຍເຄື່ອງໝາຍ semicolon. %1$sຕົວຢ່າງ: push \"route 10.0.0.0 255.255.255.0\";"
 
 #: src/usr/local/www/vpn_openvpn_csc.php:690
 msgid "CSC Overrides"
@@ -18870,9 +18870,9 @@ msgstr "*ຊື່ຕາຕະລາງ"
 
 #: src/usr/local/www/firewall_schedule_edit.php:357
 msgid ""
-"The name of the schedule may only consist of the characters "a-z, A-Z, 0-9 "
-"and _"."
-msgstr "ຊື່ຂອງຕາຕະລາງອາດຈະປະກອບດ້ວຍຕົວອັກສອນ "a-z, A-Z, 0-9 ແລະ _" ເທົ່ານັ້ນ."
+"The name of the schedule may only consist of the characters \"a-z, A-Z, 0-9 "
+"and _\"."
+msgstr "ຊື່ຂອງຕາຕະລາງອາດຈະປະກອບດ້ວຍຕົວອັກສອນ \"a-z, A-Z, 0-9 ແລະ _\"."
 
 #: src/usr/local/www/firewall_schedule_edit.php:359
 msgid "This schedule is in use so the name may not be modified!"
@@ -19695,10 +19695,10 @@ msgstr "ສະຕຣິງເລີ່ມຕົ້ນ"
 
 #: src/usr/local/www/interfaces_ppps_edit.php:671
 msgid ""
-"Enter the modem initialization string here. Do NOT include the "AT" string "
+"Enter the modem initialization string here. Do NOT include the \"AT\" string "
 "at the beginning of the command. Many modern USB 3G modems don't need an "
 "initialization string."
-msgstr "ປ້ອນສະຕຣິງເລີ່ມຕົ້ນໂມເດັມຢູ່ທີ່ນີ້. ຢ່າລວມສະຕຣິງ "AT" ຢູ່ຈຸດເລີ່ມຕົ້ນຂອງຄຳສັ່ງ. ໂມເດັມ USB 3G ທີ່ທັນສະໄໝຫຼາຍອັນບໍ່ຕ້ອງການສະຕຣິງເລີ່ມຕົ້ນ."
+msgstr "ປ້ອນສະຕຣິງເລີ່ມຕົ້ນໂມເດັມຢູ່ທີ່ນີ້. ຢ່າລວມສະຕຣິງ \"AT\" ຢູ່ຈຸດເລີ່ມຕົ້ນຂອງຄຳສັ່ງ. ໂມເດັມ USB 3G ທີ່ທັນສະໄໝຫຼາຍອັນບໍ່ຕ້ອງການສະຕຣິງເລີ່ມຕົ້ນ."
 
 #: src/usr/local/www/interfaces_ppps_edit.php:676
 msgid "Connection Timeout"
@@ -19729,9 +19729,9 @@ msgstr "ຊື່ບໍລິການ"
 #: src/usr/local/www/interfaces_ppps_edit.php:706
 msgid ""
 "This field can usually be left empty. Service name will not be configured if "
-"this field is empty. Check the "Configure NULL" box to configure a blank "
+"this field is empty. Check the \"Configure NULL\" box to configure a blank "
 "Service name."
-msgstr "ໂດຍປົກກະຕິແລ້ວຊ່ອງຂໍ້ມູນນີ້ສາມາດປ່ອຍຫວ່າງໄວ້ໄດ້. ຊື່ບໍລິການຈະບໍ່ຖືກຕັ້ງຄ່າຖ້າຊ່ອງຂໍ້ມູນນີ້ຫວ່າງ. ກວດເບິ່ງກ່ອງ "ຕັ້ງຄ່າ NULL" ເພື່ອຕັ້ງຄ່າຊື່ບໍລິການຫວ່າງ."
+msgstr "ໂດຍປົກກະຕິແລ້ວຊ່ອງຂໍ້ມູນນີ້ສາມາດປ່ອຍຫວ່າງໄວ້ໄດ້. ຊື່ບໍລິການຈະບໍ່ຖືກຕັ້ງຄ່າຖ້າຊ່ອງຂໍ້ມູນນີ້ຫວ່າງ. ກວດເບິ່ງກ່ອງ \"Configure NULL\" ເພື່ອຕັ້ງຄ່າຊື່ບໍລິການຫວ່າງ."
 
 #: src/usr/local/www/interfaces_ppps_edit.php:719
 #: src/usr/local/www/interfaces.php:2949
