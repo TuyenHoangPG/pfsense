@@ -33760,7 +33760,6 @@ msgid "Active queue management (AQM) is the intelligent drop of network packets 
 msgstr "ການຄຸ້ມຄອງຄິວ Active (AQM) ແມ່ນການປ່ອຍເປັນ packets ໃນຄິວຂອງຕົວຈຳກັດນີ້, ເມື່ອມັນເຕັມຫຼືເອົາເທິງການເຕັມ, ເພື່ອປ້ອງກັນ network congestion."
 
 #: src/etc/inc/shaper.inc:4915
-msgid ""
 msgid "Specifies the length of this queue, which the AQM is responsible for. This field may be left empty."
 msgstr "ລະບຸຄວາມຍາວຂອງຄິວນີ້, ເຊິ່ງ AQM ມີຄວາມຮັບຜິດຊອບ. ຟີວນີ້ສາມາດປ່ອຍໃຫ້ຫວ່າງໄດ້."
 
@@ -39195,7 +39194,7 @@ msgid "Static Route configuration"
 msgstr "ການຕັ້ງຄ່າ Static Route"
 
 #: src/usr/local/www/system_hasync.php:293
-msgid "Virtual IPs"
+msgid "Virtual IPs "
 msgstr "ໃບເຂົ້າທີ່ຢູ່ເປັນແປງ"
 
 #: src/usr/local/www/system_hasync.php:301
@@ -39211,8 +39210,8 @@ msgid "DNS Forwarder and DNS Resolver configurations"
 msgstr "ການຕັ້ງຄ່າ DNS Forwarder ແລະ DNS Resolver"
 
 #: src/usr/local/www/system_hasync.php:325
-msgid "Captive Portal"
-msgstr "Captive Portal"
+msgid "Captive Portal "
+msgstr "Captive Portal "
 
 #: src/usr/local/www/diag_packet_capture.php:350
 msgid "Enable promiscuous mode"
