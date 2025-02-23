@@ -23250,7 +23250,7 @@ msgstr "ເມື່ອເປີດໃຊ້, ແບນວິດທີ່ມອ�
 msgid "Single dash"
 msgstr "ຂີດດ່ຽວ"
 
-src/usr/local/www/services_captiveportal.php:1012
+#: src/usr/local/www/services_captiveportal.php:1012
 msgid "Unformatted"
 msgstr "ບໍ່ມີຮູບແບບ"
 
