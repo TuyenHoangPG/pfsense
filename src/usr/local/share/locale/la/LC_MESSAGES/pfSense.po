@@ -14369,7 +14369,7 @@ msgstr ""
 #: src/usr/local/www/services_dyndns_edit.php:414
 #, php-format
 msgid ""
-"FreeDNS (freedns.afraid.org): Enter the "Token" provided by FreeDNS. The "
+"FreeDNS (freedns.afraid.org): Enter the \"Token\" provided by FreeDNS. The "
 "token is after update.php? for API v1 or after  u/ for v2.%1$sAzure: client "
 "secret of the AD application%1$sDNS Made Easy: Dynamic DNS "
 "Password%1$sDigitalOcean: Enter API token%1$sRoute 53: Enter the Secret "
@@ -14379,7 +14379,7 @@ msgid ""
 "%1$sLinode: Enter the Personal Access Token.%1$sCloudflare: Enter the Global "
 "API Key or API token with DNS edit permisson on the provided zone."
 msgstr ""
-"FreeDNS (freedns.afraid.org): ປ້ອນ "Token" ທີ່ສະໜອງໃຫ້ໂດຍ FreeDNS. token ຢູ່ຫຼັງ update.php? ສຳລັບ API v1 ຫຼືຫຼັງ u/ ສຳລັບ v2.%1$sAzure: ລະຫັດລັບຂອງລູກຄ້າຂອງແອັບພລິເຄຊັນ AD%1$sDNS Made Easy: ລະຫັດຜ່ານ Dynamic DNS%1$sDigitalOcean: ປ້ອນ API token%1$sRoute 53: ປ້ອນ Secret Access Key.%1$sGleSYS: ປ້ອນລະຫັດ API.%1$sDomeneshop: ປ້ອນລະຫັດລັບ API.%1$sDreamhost: ປ້ອນ API Key.%1$sGandi LiveDNS: ປ້ອນ API token%1$sGoDaddy: ປ້ອນລະຫັດລັບ API.%1$sDNSimple: ປ້ອນ API token.%1$sLinode: ປ້ອນ Personal Access Token.%1$sCloudflare: ປ້ອນ Global API Key ຫຼື API token ດ້ວຍການອະນຸຍາດແກ້ໄຂ DNS ໃນເຂດທີ່ສະໜອງໃຫ້."
+"FreeDNS (freedns.afraid.org): ປ້ອນ \"Token\" ທີ່ສະໜອງໃຫ້ໂດຍ FreeDNS. token ຢູ່ຫຼັງ update.php? ສຳລັບ API v1 ຫຼືຫຼັງ u/ ສຳລັບ v2.%1$sAzure: ລະຫັດລັບຂອງລູກຄ້າຂອງແອັບພລິເຄຊັນ AD%1$sDNS Made Easy: ລະຫັດຜ່ານ Dynamic DNS%1$sDigitalOcean: ປ້ອນ API token%1$sRoute 53: ປ້ອນ Secret Access Key.%1$sGleSYS: ປ້ອນລະຫັດ API.%1$sDomeneshop: ປ້ອນລະຫັດລັບ API.%1$sDreamhost: ປ້ອນ API Key.%1$sGandi LiveDNS: ປ້ອນ API token%1$sGoDaddy: ປ້ອນລະຫັດລັບ API.%1$sDNSimple: ປ້ອນ API token.%1$sLinode: ປ້ອນ Personal Access Token.%1$sCloudflare: ປ້ອນ Global API Key ຫຼື API token ດ້ວຍການອະນຸຍາດແກ້ໄຂ DNS ໃນເຂດທີ່ສະໜອງໃຫ້."
 
 #: src/usr/local/www/services_dyndns_edit.php:430
 msgid "Zone ID"
@@ -14964,11 +14964,11 @@ msgstr "ການຕັ້ງຄ່າຊື່ໂຮສ Captive Portal"
 
 #: src/usr/local/www/services_captiveportal_hostname_edit.php:170
 msgid ""
-"Use "From" to always allow a Hostname through the captive portal (without "
-"authentication). Use "To" to allow access from all clients (even non-"
+"Use \"From\" to always allow a Hostname through the captive portal (without "
+"authentication). Use \"To\" to allow access from all clients (even non-"
 "authenticated ones) behind the portal to this Hostname."
 msgstr ""
-"ໃຊ້ "From" ເພື່ອອະນຸຍາດຊື່ໂຮສຜ່ານ captive portal ສະເໝີ (ໂດຍບໍ່ມີການກວດສອບສິດ). ໃຊ້ "To" ເພື່ອອະນຸຍາດການເຂົ້າເຖິງຈາກລູກຄ້າທັງໝົດ (ແມ້ແຕ່ຜູ້ທີ່ບໍ່ໄດ້ກວດສອບສິດ) ຢູ່ເບື້ອງຫຼັງ portal ໄປຫາຊື່ໂຮສນີ້."
+"ໃຊ້ \"From\" ເພື່ອອະນຸຍາດຊື່ໂຮສຜ່ານ captive portal ສະເໝີ (ໂດຍບໍ່ມີການກວດສອບສິດ). ໃຊ້ \"To\" ເພື່ອອະນຸຍາດການເຂົ້າເຖິງຈາກລູກຄ້າທັງໝົດ (ແມ້ແຕ່ຜູ້ທີ່ບໍ່ໄດ້ກວດສອບສິດ) ຢູ່ເບື້ອງຫຼັງ portal ໄປຫາຊື່ໂຮສນີ້."
 
 #: src/usr/local/www/services_captiveportal_hostname_edit.php:192
 msgid "Enter a upload limit to be enforced on this Hostname in Kbit/s"
@@ -15001,10 +15001,10 @@ msgstr "ລາຍການ IGMP"
 #: src/usr/local/www/services_igmpproxy.php:185
 msgid ""
 "Please add the interface for upstream, the allowed subnets, and the "
-"downstream interfaces for the proxy to allow. Only one "upstream" "
+"downstream interfaces for the proxy to allow. Only one \"upstream\" "
 "interface can be configured."
 msgstr ""
-"ກະລຸນາເພີ່ມອິນເຕີເຟດສຳລັບ upstream, subnets ທີ່ອະນຸຍາດ, ແລະອິນເຕີເຟດ downstream ສຳລັບ proxy ເພື່ອອະນຸຍາດ. ສາມາດຕັ້ງຄ່າອິນເຕີເຟດ "upstream" ໄດ້ພຽງອັນດຽວເທົ່ານັ້ນ."
+"ກະລຸນາເພີ່ມອິນເຕີເຟດສຳລັບ upstream, subnets ທີ່ອະນຸຍາດ, ແລະອິນເຕີເຟດ downstream ສຳລັບ proxy ເພື່ອອະນຸຍາດ. ສາມາດຕັ້ງຄ່າອິນເຕີເຟດ \"upstream\" ໄດ້ພຽງອັນດຽວເທົ່ານັ້ນ."
 
 #: src/usr/local/www/system_gateways_edit.php:147
 msgid "Edit Gateway"
@@ -15179,7 +15179,7 @@ msgid ""
 "A longer time period will provide smoother results for round trip time and "
 "loss, but will increase the time before a latency or loss alert is triggered."
 msgstr ""
-"ໄລຍະເວລາທີ່ຍາວກວ່າຈະໃຫ້ຜົນໄດ້ຮັບທີ່ລຽບກວ່າສຳລັບເວລາເດີນທາງໄປກັບ ແລະການສູນເສຍ, ແຕ່ຈະເພີ່ມເວລາ
+"ໄລຍະເວລາທີ່ຍາວກວ່າຈະໃຫ້ຜົນໄດ້ຮັບທີ່ລຽບກວ່າສຳລັບເວລາເດີນທາງໄປກັບ ແລະການສູນເສຍ, ແຕ່ຈະເພີ່ມເວລາ"
 
 #: src/usr/local/www/system_gateways_edit.php:391
 msgid ""
@@ -17316,9 +17316,9 @@ msgstr "ລຶບທີ່ຢູ່ MAC"
 
 #: src/usr/local/www/services_captiveportal_mac.php:214
 msgid ""
-"Adding MAC addresses as "pass" MACs allows them access through the captive "
+"Adding MAC addresses as \"pass\" MACs allows them access through the captive "
 "portal automatically without being taken to the portal page."
-msgstr "ການເພີ່ມທີ່ຢູ່ MAC ເປັນ MAC "pass" ອະນຸຍາດໃຫ້ພວກເຂົາເຂົ້າເຖິງຜ່ານ captive portal ໂດຍອັດຕະໂນມັດໂດຍບໍ່ໄດ້ຖືກນຳໄປຫາໜ້າ portal."
+msgstr "ການເພີ່ມທີ່ຢູ່ MAC ເປັນ MAC \"pass\" ອະນຸຍາດໃຫ້ພວກເຂົາເຂົ້າເຖິງຜ່ານ captive portal ໂດຍອັດຕະໂນມັດໂດຍບໍ່ໄດ້ຖືກນຳໄປຫາໜ້າ portal."
 
 #: src/usr/local/www/system_advanced_admin.php:109
 #, php-format
@@ -17669,9 +17669,10 @@ msgstr "ບໍລິການກວດສອບ IP"
 
 #: src/usr/local/www/services_checkip_edit.php:129
 msgid ""
-"The name of the service may only consist of the characters "a-z, A-Z, 0-9 "
-"and _"."
-msgstr "ຊື່ຂອງບໍລິການອາດຈະປະກອບດ້ວຍຕົວອັກສອນ "a-z, A-Z, 0-9 ແລະ _" ເທົ່ານັ້ນ."
+"The name of the service may only consist of the characters \"a-z, A-Z, 0-9 "
+"and _\"."
+msgstr ""
+"ຊື່ຂອງການບໍລິການອາດຈະປະກອບດ້ວຍຕົວອັກສອນ \"a-z, A-Z, 0-9 ແລະ _\" ເທົ່ານັ້ນ."
 
 #: src/usr/local/www/services_checkip_edit.php:133
 msgid "*URL"
@@ -20842,9 +20843,9 @@ msgstr "ພອດສິ້ນສຸດ"
 #: src/usr/local/www/firewall_rules_edit.php:1506
 #, php-format
 msgid ""
-"Specify the %s port or port range for this rule. The "To" field may be "
+"Specify the %s port or port range for this rule. The \"To\" field may be "
 "left empty if only filtering a single port."
-msgstr "ລະບຸພອດ %s ຫຼືຊ່ວງພອດສຳລັບກົດລະບຽບນີ້. ຊ່ອງ "To" ອາດຈະຖືກປ່ອຍຫວ່າງໄວ້ຖ້າກັ່ນຕອງພຽງພອດດຽວ."
+msgstr "ລະບຸພອດ %s ຫຼືຊ່ວງພອດສຳລັບກົດລະບຽບນີ້. ຊ່ອງ \"To\" ອາດຈະຖືກປ່ອຍຫວ່າງໄວ້ຖ້າກັ່ນຕອງພຽງພອດດຽວ."
 
 #: src/usr/local/www/firewall_rules_edit.php:1513
 msgid "Extra Options"
