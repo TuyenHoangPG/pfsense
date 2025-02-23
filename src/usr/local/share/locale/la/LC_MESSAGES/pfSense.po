@@ -2613,7 +2613,7 @@ msgstr "ຊື່ໂດເມນ"
 #: src/usr/local/www/services_dhcp_edit.php:606
 msgid ""
 "The default is to use the domain name of this system as the default domain "
-"name provided by DHCP. An alternate domain name may be specified here."
+"name provided by DHCP. An alternate domain name may be specified here. "
 msgstr ""
 "ຄ່າເລີ່ມຕົ້ນແມ່ນໃຊ້ຊື່ໂດເມນຂອງລະບົບນີ້ເປັນຊື່ໂດເມນເລີ່ມຕົ້ນທີ່ DHCP ໃຫ້. "
 "ສາມາດກຳນົດຊື່ໂດເມນທີ່ແຕກຕ່າງໄດ້ທີ່ນີ້."
@@ -4440,7 +4440,7 @@ msgid "DNS Configuration"
 msgstr "ການຕັ້ງຄ່າ DNS"
 
 #: src/usr/local/www/services_router_advertisements.php:458
-msgid "Server"
+msgid "Server "
 msgstr "ເຊີບເວີ"
 
 #: src/usr/local/www/services_router_advertisements.php:469
@@ -7928,11 +7928,11 @@ msgstr "ປະເພດຂໍ້ຄວາມບໍ່ສາມາດລວມເ
 
 #: src/usr/local/www/services_dhcp.php:484
 msgid ""
-"String type must be enclosed in quotes like "this" or must be a series of "
+"String type must be enclosed in quotes like \"this\" or must be a series of "
 "octets specified in hexadecimal, separated by colons, like 01:23:45:67:89:ab:"
 "cd:ef"
 msgstr ""
-"ປະເພດສະຕຣິງຕ້ອງຖືກປິດລ້ອມດ້ວຍວົງຢືມເຊັ່ນ "ນີ້" ຫຼືຕ້ອງເປັນຊຸດຂອງ octets ທີ່ລະບຸໃນເລກຖານສິບຫົກ, ແຍກດ້ວຍເຄື່ອງໝາຍຈຸດ, ເຊັ່ນ 01:23:45:67:89:ab:cd:ef"
+"ປະເພດສະຕຣິງຕ້ອງຖືກປິດລ້ອມດ້ວຍວົງຢືມເຊັ່ນ \"this\" ຫຼືຕ້ອງເປັນຊຸດຂອງ octets ທີ່ລະບຸໃນເລກຖານສິບຫົກ, ແຍກດ້ວຍເຄື່ອງໝາຍຈຸດ, ເຊັ່ນ 01:23:45:67:89:ab:cd:ef"
 
 #: src/usr/local/www/services_dhcp.php:486
 msgid "Boolean type must be true, false, on, or off."
@@ -8203,9 +8203,9 @@ msgstr "ຕົວເລືອກອື່ນໆ"
 msgid ""
 "The default is to use the IP on this interface of the firewall as the "
 "gateway. Specify an alternate gateway here if this is not the correct "
-"gateway for the network. Type "none" for no gateway assignment."
+"gateway for the network. Type \"none\" for no gateway assignment."
 msgstr ""
-"ຄ່າເລີ່ມຕົ້ນແມ່ນການໃຊ້ IP ໃນອິນເຕີເຟດນີ້ຂອງໄຟວໍເປັນ gateway. ລະບຸ gateway ອື່ນຢູ່ທີ່ນີ້ ຖ້ານີ້ບໍ່ແມ່ນ gateway ທີ່ຖືກຕ້ອງສຳລັບເຄືອຂ່າຍ. ພິມ "none" ສຳລັບບໍ່ມີການມອບໝາຍ gateway."
+"ຄ່າເລີ່ມຕົ້ນແມ່ນການໃຊ້ IP ໃນອິນເຕີເຟດນີ້ຂອງໄຟວໍເປັນ gateway. ລະບຸ gateway ອື່ນຢູ່ທີ່ນີ້ ຖ້ານີ້ບໍ່ແມ່ນ gateway ທີ່ຖືກຕ້ອງສຳລັບເຄືອຂ່າຍ. ພິມ \"none\" ສຳລັບບໍ່ມີການມອບໝາຍ gateway."
 
 #: src/usr/local/www/services_dhcp.php:1208
 msgid ""
@@ -9070,22 +9070,21 @@ msgstr ""
 msgid ""
 "If this option is set %s DNS Forwarder (dnsmasq) will not forward A or AAAA "
 "queries for plain names, without dots or domain parts, to upstream name "
-"servers.\t If the name is not known from /etc/hosts or DHCP then a "not "
-"found" answer is returned. "
-msgstr ""
-"ຖ້າຕົວເລືອກນີ້ຖືກຕັ້ງ %s DNS Forwarder (dnsmasq) ຈະບໍ່ສົ່ງຕໍ່ຄໍາຖາມ A ຫຼື AAAA ສໍາລັບຊື່ທໍາມະດາ, ໂດຍບໍ່ມີຈຸດຫຼືສ່ວນໂດເມນ, ໄປຫາເຊີບເວີຊື່ຂາເຂົ້າ.\t ຖ້າຊື່ບໍ່ຮູ້ຈາກ /etc/hosts ຫຼື DHCP ຫຼັງຈາກນັ້ນຄໍາຕອບ &quot;ບໍ່ພົບ&quot; ຈະຖືກສົ່ງຄືນ."
+"servers.\t If the name is not known from /etc/hosts or DHCP then a \"not "
+"found\" answer is returned. "
+msgstr "ຖ້າຕົວເລືອກນີ້ຖືກຕັ້ງ %s ຕົວສົ່ງຕໍ່ DNS (dnsmasq) ຈະບໍ່ສົ່ງຕໍ່ການສອບຖາມ A ຫຼື AAAA ສໍາລັບຊື່ທໍາມະດາ, ໂດຍບໍ່ມີຈຸດ ຫຼືພາກສ່ວນໂດເມນ, ໄປຫາເຄື່ອງແມ່ຂ່າຍຊື່ຕົ້ນນ້ໍາ.\t ຖ້າຊື່ບໍ່ຮູ້ຈັກຈາກ /etc/hosts ຫຼື DHCP ຫຼັງຈາກນັ້ນຄໍາຕອບ \"ບໍ່ພົບ\" ຈະຖືກສົ່ງຄືນ. "
 
 #: src/usr/local/www/services_dnsmasq.php:314
 #, php-format
 msgid ""
 "If this option is set %s DNS Forwarder (dnsmasq) will not forward reverse "
 "DNS lookups (PTR) for private addresses (RFC 1918) to upstream name servers. "
-" Any entries in the Domain Overrides section forwarding private "n.n.n.in-"
-"addr.arpa" names to a specific server are still forwarded. If the IP to "
+" Any entries in the Domain Overrides section forwarding private \"n.n.n.in-"
+"addr.arpa\" names to a specific server are still forwarded. If the IP to "
 "name is not known from /etc/hosts, DHCP or a specific domain override then a "
-""not found" answer is immediately returned. "
+"\"not found\" answer is immediately returned. "
 msgstr ""
-"ຖ້າຕົວເລືອກນີ້ຖືກຕັ້ງ %s DNS Forwarder (dnsmasq) ຈະບໍ່ສົ່ງຕໍ່ການຄົ້ນຫາ DNS ແບບປີ້ນກັບ (PTR) ສໍາລັບທີ່ຢູ່ສ່ວນຕົວ (RFC 1918) ໄປຫາເຊີບເວີຊື່ຂາເຂົ້າ. ລາຍການໃດໆໃນສ່ວນການຂຽນທັບໂດເມນສົ່ງຕໍ່ຊື່ສ່ວນຕົວ &quot;n.n.n.in-addr.arpa&quot; ໄປຫາເຊີບເວີສະເພາະຍັງຖືກສົ່ງຕໍ່. ຖ້າ IP ຫາຊື່ບໍ່ຮູ້ຈາກ /etc/hosts, DHCP ຫຼືການຂຽນທັບໂດເມນສະເພາະຫຼັງຈາກນັ້ນຄໍາຕອບ &quot;ບໍ່ພົບ&quot; ຈະຖືກສົ່ງຄືນທັນທີ."
+"ຖ້າຕົວເລືອກນີ້ຖືກຕັ້ງ %s ຕົວສົ່ງຕໍ່ DNS (dnsmasq) ຈະບໍ່ສົ່ງຕໍ່ການຊອກຫາ DNS ແບບປີ້ນກັບ (PTR) ສໍາລັບທີ່ຢູ່ສ່ວນຕົວ (RFC 1918) ໄປຫາເຄື່ອງແມ່ຂ່າຍຊື່ຕົ້ນນ້ໍາ. ລາຍການໃດໆໃນພາກສ່ວນການຂຽນທັບໂດເມນທີ່ສົ່ງຕໍ່ຊື່ສ່ວນຕົວ \"n.n.n.in-addr.arpa\" ໄປຫາເຄື່ອງແມ່ຂ່າຍສະເພາະຍັງຖືກສົ່ງຕໍ່ຢູ່. ຖ້າ IP ຫາຊື່ບໍ່ຮູ້ຈັກຈາກ /etc/hosts, DHCP ຫຼືການຂຽນທັບໂດເມນສະເພາະໃດນຶ່ງ ຫຼັງຈາກນັ້ນຄໍາຕອບ \"ບໍ່ພົບ\" ຈະຖືກສົ່ງຄືນທັນທີ. "
 
 #: src/usr/local/www/services_dnsmasq.php:333
 #: src/usr/local/www/services_captiveportal.php:552
