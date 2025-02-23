@@ -11503,9 +11503,9 @@ msgid ""
 "full install rather than use the hard disk. Setting this will cause the data "
 "in /tmp and /var to be lost. RRD, DHCP leases and log directory will be "
 "retained. Changing this setting will cause the firewall to reboot after "
-"clicking "Save"."
+"clicking \"Save\"."
 msgstr ""
-"ຕັ້ງຄ່ານີ້ເພື່ອໃຊ້ /tmp ແລະ /var ເປັນ RAM disks (ດິສກ໌ລະບົບໄຟລ໌ໜ່ວຍຄວາມຈຳ) ໃນການຕິດຕັ້ງເຕັມແທນທີ່ຈະໃຊ້ຮາດດິສກ໌. ການຕັ້ງຄ່ານີ້ຈະເຮັດໃຫ້ຂໍ້ມູນໃນ /tmp ແລະ /var ສູນເສຍໄປ. RRD, ການເຊົ່າ DHCP ແລະໄດເລກະທໍຣີບັນທຶກຈະຖືກຮັກສາໄວ້. ການປ່ຽນການຕັ້ງຄ່ານີ້ຈະເຮັດໃຫ້ໄຟວໍຣີບູດຫຼັງຈາກຄລິກ "ບັນທຶກ"."
+"ຕັ້ງຄ່ານີ້ເພື່ອໃຊ້ /tmp ແລະ /var ເປັນ RAM disks (ດິສກ໌ລະບົບໄຟລ໌ໜ່ວຍຄວາມຈຳ) ໃນການຕິດຕັ້ງເຕັມແທນທີ່ຈະໃຊ້ຮາດດິສກ໌. ການຕັ້ງຄ່ານີ້ຈະເຮັດໃຫ້ຂໍ້ມູນໃນ /tmp ແລະ /var ສູນເສຍໄປ. RRD, ການເຊົ່າ DHCP ແລະໄດເລກະທໍຣີບັນທຶກຈະຖືກຮັກສາໄວ້. ການປ່ຽນການຕັ້ງຄ່ານີ້ຈະເຮັດໃຫ້ໄຟວໍຣີບູດຫຼັງຈາກຄລິກ \"Save\"."
 
 #: src/usr/local/www/system_advanced_misc.php:320
 msgid "RAM Disk Size"
@@ -12195,11 +12195,11 @@ msgstr "ລະດັບລາຍລະອຽດ"
 #: src/usr/local/www/diag_packet_capture.php:435
 #, php-format
 msgid ""
-"This is the level of detail that will be displayed after hitting "Stop" "
+"This is the level of detail that will be displayed after hitting \"Stop\" "
 "when the packets have been captured.%sThis option does not affect the level "
 "of detail when downloading the packet capture. "
 msgstr ""
-"ນີ້ແມ່ນລະດັບລາຍລະອຽດທີ່ຈະສະແດງຫຼັງຈາກກົດ "ຢຸດ" ເມື່ອແພັກເກັດຖືກຈັບພາບ.%sຕົວເລືອກນີ້ບໍ່ມີຜົນຕໍ່ລະດັບລາຍລະອຽດເມື່ອດາວໂຫຼດການຈັບພາບແພັກເກັດ."
+"ນີ້ແມ່ນລະດັບລາຍລະອຽດທີ່ຈະສະແດງຫຼັງຈາກກົດ \"Stop\" ເມື່ອແພັກເກັດຖືກຈັບພາບ.%sຕົວເລືອກນີ້ບໍ່ມີຜົນຕໍ່ລະດັບລາຍລະອຽດເມື່ອດາວໂຫຼດການຈັບພາບແພັກເກັດ."
 
 #: src/usr/local/www/diag_packet_capture.php:441
 msgid "Reverse DNS Lookup"
@@ -12564,8 +12564,8 @@ msgstr "ເວລາສອບຖາມ"
 
 #: src/usr/local/www/diag_dns.php:176
 #, php-format
-msgid "Host "%s" could not be resolved."
-msgstr "ບໍ່ສາມາດແກ້ໄຂໂຮສ "%s" ໄດ້."
+msgid "Host \"%s\" could not be resolved."
+msgstr "ບໍ່ສາມາດແກ້ໄຂໂຮສ \"%s\" ໄດ້."
 
 #: src/usr/local/www/diag_dns.php:181
 msgid "Alias was updated successfully."
@@ -14079,9 +14079,9 @@ msgstr "Wake-on-LAN"
 #: src/usr/local/www/services_wol.php:106
 msgid ""
 "This service can be used to wake up (power on) computers by sending special "
-""Magic Packets"."
+"\"Magic Packets\"."
 msgstr ""
-"ບໍລິການນີ້ສາມາດໃຊ້ເພື່ອປຸກ (ເປີດເຄື່ອງ) ຄອມພິວເຕີໂດຍການສົ່ງ "Magic Packets" ພິເສດ."
+"ບໍລິການນີ້ສາມາດໃຊ້ເພື່ອປຸກ (ເປີດເຄື່ອງ) ຄອມພິວເຕີໂດຍການສົ່ງ "\"Magic Packets\" ພິເສດ."
 
 #: src/usr/local/www/services_wol.php:107
 msgid ""
@@ -14148,8 +14148,8 @@ msgstr "ປ່ຽນຈຳນວນການແກ້ໄຂການສຳຮອ
 
 #: src/usr/local/www/diag_confbak.php:56
 #, php-format
-msgid "Successfully reverted to timestamp %1$s with description "%2$s"."
-msgstr "ປ່ຽນກັບໄປຫາ timestamp %1$s ດ້ວຍຄຳອະທິບາຍ "%2$s" ສຳເລັດແລ້ວ."
+msgid "Successfully reverted to timestamp %1$s with description \"%2$s\"."
+msgstr "ປ່ຽນກັບໄປຫາ timestamp %1$s ດ້ວຍຄຳອະທິບາຍ \"%2$s\" ສຳເລັດແລ້ວ."
 
 #: src/usr/local/www/diag_confbak.php:56 src/usr/local/www/diag_confbak.php:64
 #: src/usr/local/www/diag_confbak.php:118
@@ -14165,8 +14165,8 @@ msgstr "ບໍ່ສາມາດປ່ຽນກັບໄປໃຊ້ການຕ
 
 #: src/usr/local/www/diag_confbak.php:64
 #, php-format
-msgid "Deleted backup with timestamp %1$s and description "%2$s"."
-msgstr "ລົບການສຳຮອງຂໍ້ມູນດ້ວຍ timestamp %1$s ແລະຄຳອະທິບາຍ "%2$s" ແລ້ວ."
+msgid "Deleted backup with timestamp %1$s and description \"%2$s\"."
+msgstr "ລົບການສຳຮອງຂໍ້ມູນດ້ວຍ timestamp %1$s ແລະຄຳອະທິບາຍ \"%2$s\" ແລ້ວ."
 
 #: src/usr/local/www/diag_confbak.php:96 src/usr/local/www/diag_confbak.php:109
 #: src/usr/local/www/diag_backup.php:121 src/usr/local/www/diag_backup.php:145
@@ -14209,9 +14209,9 @@ msgid ""
 "To view the differences between an older configuration and a newer "
 "configuration, select the older configuration using the left column of radio "
 "options and select the newer configuration in the right column, then press "
-"the "Diff" button."
+"the \"Diff\" button."
 msgstr ""
-"ເພື່ອເບິ່ງຄວາມແຕກຕ່າງລະຫວ່າງການຕັ້ງຄ່າເກົ່າກວ່າ ແລະການຕັ້ງຄ່າໃໝ່ກວ່າ, ເລືອກການຕັ້ງຄ່າເກົ່າກວ່າໂດຍໃຊ້ຖັນຊ້າຍຂອງຕົວເລືອກວິທະຍຸ ແລະເລືອກການຕັ້ງຄ່າໃໝ່ກວ່າໃນຖັນຂວາ, ຈາກນັ້ນກົດປຸ່ມ "Diff"."
+"ເພື່ອເບິ່ງຄວາມແຕກຕ່າງລະຫວ່າງການຕັ້ງຄ່າເກົ່າກວ່າ ແລະການຕັ້ງຄ່າໃໝ່ກວ່າ, ເລືອກການຕັ້ງຄ່າເກົ່າກວ່າໂດຍໃຊ້ຖັນຊ້າຍຂອງຕົວເລືອກວິທະຍຸ ແລະເລືອກການຕັ້ງຄ່າໃໝ່ກວ່າໃນຖັນຂວາ, ຈາກນັ້ນກົດປຸ່ມ \"Diff\"."
 
 #: src/usr/local/www/diag_confbak.php:210
 #: src/usr/local/www/diag_confbak.php:274
@@ -14483,10 +14483,9 @@ msgstr "ໂດຍຄູ່ IP"
 
 #: src/usr/local/www/system_advanced_firewall.php:48
 msgid ""
-"The \"Firewall Maximum Table Entries\" setting has been changed to a "
-"value bigger than system can support without a reboot.\n\nReboot now ?"
+"The \\\"Firewall Maximum Table Entries\\\" setting has been changed to a "
+"value bigger than system can support without a reboot.\\n\\nReboot now ?"
 msgstr ""
-"ການຕັ້ງຄ່າ \"Firewall Maximum Table Entries\" ໄດ້ຖືກປ່ຽນເປັນຄ່າທີ່ໃຫຍ່ກວ່າທີ່ລະບົບສາມາດຮອງຮັບໄດ້ໂດຍບໍ່ມີການ reboot.\n\nReboot ດຽວນີ້ບໍ?"
 
 #: src/usr/local/www/system_advanced_firewall.php:89
 msgid "Firewall Advanced"
