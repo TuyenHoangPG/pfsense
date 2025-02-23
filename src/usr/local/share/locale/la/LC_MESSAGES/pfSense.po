@@ -14081,7 +14081,7 @@ msgid ""
 "This service can be used to wake up (power on) computers by sending special "
 "\"Magic Packets\"."
 msgstr ""
-"ບໍລິການນີ້ສາມາດໃຊ້ເພື່ອປຸກ (ເປີດເຄື່ອງ) ຄອມພິວເຕີໂດຍການສົ່ງ "\"Magic Packets\" ພິເສດ."
+"ບໍລິການນີ້ສາມາດໃຊ້ເພື່ອປຸກ (ເປີດເຄື່ອງ) ຄອມພິວເຕີໂດຍການສົ່ງ \"Magic Packets\" ພິເສດ."
 
 #: src/usr/local/www/services_wol.php:107
 msgid ""
@@ -18014,9 +18014,9 @@ msgstr "NetBIOS Scope ID ໃຫ້ບໍລິການການຕັ້ງຊ�
 #, php-format
 msgid ""
 "Enter any additional options to add for this client specific override, "
-"separated by a semicolon. %1$sEXAMPLE: push "route 10.0.0.0 255.255.255."
+"separated by a semicolon. %1$sEXAMPLE: push \"route 10.0.0.0 255.255.255."
 "0"; "
-msgstr "ປ້ອນຕົວເລືອກເພີ່ມເຕີມໃດໆທີ່ຈະເພີ່ມສຳລັບການຂຽນທັບສະເພາະລູກຄ້ານີ້, ແຍກດ້ວຍເຄື່ອງໝາຍ semicolon. %1$sຕົວຢ່າງ: push "route 10.0.0.0 255.255.255.0";"
+msgstr "ປ້ອນຕົວເລືອກເພີ່ມເຕີມໃດໆທີ່ຈະເພີ່ມສຳລັບການຂຽນທັບສະເພາະລູກຄ້ານີ້, ແຍກດ້ວຍເຄື່ອງໝາຍ semicolon. %1$sຕົວຢ່າງ: push \"route 10.0.0.0 255.255.255.0";"
 
 #: src/usr/local/www/vpn_openvpn_csc.php:690
 msgid "CSC Overrides"
@@ -19388,9 +19388,9 @@ msgstr "ຂໍ້ຄວາມໃດໆທີ່ໄດ້ຮັບຈາກໂຮ
 
 #: src/usr/local/www/diag_testport.php:205
 msgid ""
-"No output received, or connection failed. Try with "Show Remote Text" "
+"No output received, or connection failed. Try with \"Show Remote Text\" "
 "unchecked first."
-msgstr "ບໍ່ໄດ້ຮັບຜົນຜະລິດ, ຫຼືການເຊື່ອມຕໍ່ລົ້ມເຫຼວ. ລອງໃຊ້ກັບ "ສະແດງຂໍ້ຄວາມທາງໄກ" ທີ່ບໍ່ໄດ້ໝາຍກວດສອບກ່ອນ."
+msgstr "ບໍ່ໄດ້ຮັບຜົນຜະລິດ, ຫຼືການເຊື່ອມຕໍ່ລົ້ມເຫຼວ. ລອງໃຊ້ກັບ \"Show Remote Text\" ທີ່ບໍ່ໄດ້ໝາຍກວດສອບກ່ອນ."
 
 #: src/usr/local/www/diag_testport.php:207
 msgid "Connection failed."
@@ -19613,8 +19613,8 @@ msgstr "ເລືອກຢ່າງໜ້ອຍສອງອິນເຕີເຟ
 #: src/usr/local/www/interfaces_ppps_edit.php:543
 msgid ""
 "A description may be entered here for administrative reference. Description "
-"will appear in the "Interfaces Assign" select lists."
-msgstr "ຄຳອະທິບາຍອາດຈະຖືກປ້ອນຢູ່ທີ່ນີ້ສຳລັບການອ້າງອີງການບໍລິຫານ. ຄຳອະທິບາຍຈະປາກົດຢູ່ໃນລາຍການເລືອກ "Interfaces Assign"."
+"will appear in the \"Interfaces Assign\" select lists."
+msgstr "ຄຳອະທິບາຍອາດຈະຖືກປ້ອນຢູ່ທີ່ນີ້ສຳລັບການອ້າງອີງການບໍລິຫານ. ຄຳອະທິບາຍຈະປາກົດຢູ່ໃນລາຍການເລືອກ \"Interfaces Assign\"."
 
 #: src/usr/local/www/interfaces_ppps_edit.php:547
 #: src/usr/local/www/interfaces.php:2812 src/usr/local/www/interfaces.php:3268
