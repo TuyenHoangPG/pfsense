@@ -10721,30 +10721,27 @@ msgid ""
 "for each interface's subnet (except WAN-type connections) and the rules on "
 "the \"Mappings\" section of this page are ignored."
 msgstr ""
-"ຖ້າເລືອກ automatic outbound NAT, ການ mapping ຈະຖືກສ້າງຂຶ້ນໂດຍອັດຕະໂນມັດສຳລັບ subnet ຂອງແຕ່ລະອິນເຕີເຟດ (ຍົກເວັ້ນການເຊື່ອມຕໍ່ປະເພດ WAN) ແລະກົດລະບຽບໃນສ່ວນ \"Mappings\" ຂອງໜ້ານີ້ຈະຖືກລະເລີຍ."
+"ຖ້າເລືອກ NAT ຂາອອກແບບອັດຕະໂນມັດ, ການສ້າງແຜນທີ່ຖືກສ້າງຂື້ນໂດຍອັດຕະໂນມັດສໍາລັບແຕ່ລະເຄືອຂ່າຍຍ່ອຍຂອງອິນເຕີເຟດ (ຍົກເວັ້ນການເຊື່ອມຕໍ່ປະເພດ WAN) ແລະກົດລະບຽບໃນພາກສ່ວນ \"ການສ້າງແຜນທີ່\" ຂອງຫນ້ານີ້ຈະຖືກລະເລີຍ."
 
 #: src/usr/local/www/firewall_nat_out.php:635
-msgid ""
-"If automatic outbound NAT is selected, a mapping is automatically generated "
-"for each interface's subnet (except WAN-type connections) and the rules on "
-"the \"Mappings\" section of this page are ignored."
-msgstr ""
-"ຖ້າເລືອກ automatic outbound NAT, ການ mapping ຈະຖືກສ້າງຂຶ້ນໂດຍອັດຕະໂນມັດສຳລັບ subnet ຂອງແຕ່ລະອິນເຕີເຟດ (ຍົກເວັ້ນການເຊື່ອມຕໍ່ປະເພດ WAN) ແລະກົດລະບຽບໃນສ່ວນ \"Mappings\" ຂອງໜ້ານີ້ຈະຖືກລະເລີຍ."
-
-#: src/usr/local/www/firewall_nat_out.php:637
 msgid ""
 "If manual outbound NAT is selected, outbound NAT rules will not be "
 "automatically generated and only the mappings specified on this page will be "
 "used."
 msgstr ""
-"ຖ້າເລືອກ manual outbound NAT, ກົດລະບຽບ outbound NAT ຈະບໍ່ຖືກສ້າງຂຶ້ນໂດຍອັດຕະໂນມັດ ແລະມີພຽງແຕ່ການ mapping ທີ່ລະບຸໄວ້ໃນໜ້ານີ້ເທົ່ານັ້ນທີ່ຈະຖືກໃຊ້."
+"ຖ້າເລືອກ NAT ຂາອອກດ້ວຍຕົນເອງ, ກົດລະບຽບ NAT ຂາອອກຈະບໍ່ຖືກສ້າງຂື້ນໂດຍອັດຕະໂນມັດແລະມີພຽງແຕ່ການສ້າງແຜນທີ່ທີ່ລະບຸໄວ້ໃນຫນ້ານີ້ຈະຖືກນໍາໃຊ້."
 
-#: src/usr/local/www/firewall_nat_out.php:639
+#: src/usr/local/www/firewall_nat_out.php:637
 msgid ""
 "If hybrid outbound NAT is selected, mappings specified on this page will be "
 "used, followed by the automatically generated ones."
 msgstr ""
-"ຖ້າເລືອກ hybrid outbound NAT, ການ mapping ທີ່ລະບຸໄວ້ໃນໜ້ານີ້ຈະຖືກໃຊ້, ຕິດຕາມດ້ວຍອັນທີ່ສ້າງຂຶ້ນໂດຍອັດຕະໂນມັດ."
+"ຖ້າເລືອກ NAT ຂາອອກແບບປະສົມ, ການສ້າງແຜນທີ່ທີ່ລະບຸໄວ້ໃນຫນ້ານີ້ຈະຖືກນໍາໃຊ້, ຕິດຕາມດ້ວຍການສ້າງແຜນທີ່ທີ່ສ້າງຂື້ນໂດຍອັດຕະໂນມັດ."
+
+#: src/usr/local/www/firewall_nat_out.php:639
+msgid "If disable outbound NAT is selected, no rules will be used."
+msgstr ""
+"ຖ້າເລືອກປິດການใช้งาน NAT ຂາອອກ, ຈະບໍ່ມີກົດລະບຽບໃດໆຖືກນໍາໃຊ້."
 
 #: src/usr/local/www/firewall_nat_out.php:642
 #, php-format
@@ -12091,7 +12088,7 @@ msgid ""
 "%1$sNon-promiscuous mode captures only traffic that is directly relevant to "
 "the host (sent by it, sent or broadcast to it, or routed through it) and "
 "does not show packets that are ignored at network adapter level."
-"%2$s%3$sPromiscuous mode%4$s ("sniffing") captures all data seen by the "
+"%2$s%3$sPromiscuous mode%4$s (\"sniffing\") captures all data seen by the "
 "adapter, whether or not it is valid or related to the host, but in some "
 "cases may have undesirable side effects and not all adapters support this "
 "option. Click Info for details %5$sPromiscuous mode requires more kernel "
@@ -12102,8 +12099,7 @@ msgid ""
 "Some network adapters may not support or work well in promiscuous mode (see "
 "%7$s).%8$s"
 msgstr ""
-"%1$sໂໝດ Non-promiscuous ຈັບພາບສະເພາະການຈະລາຈອນທີ່ກ່ຽວຂ້ອງໂດຍກົງກັບໂຮສ (ສົ່ງໂດຍມັນ, ສົ່ງຫຼືກະຈາຍສຽງໄປຫາ, ຫຼືສົ່ງຜ່ານມັນ) ແລະບໍ່ສະແດງແພັກເກັດທີ່ຖືກລະເລີຍໃນລະດັບອະແດັບເຕີເຄືອຂ່າຍ.%2$s%3$sໂໝດ Promiscuous%4$s ("sniffing") ຈັບພາບຂໍ້ມູນທັງໝົດທີ່ເຫັນໂດຍອະແດັບເຕີ, ບໍ່ວ່າຈະຖືກຕ້ອງຫຼືກ່ຽວຂ້ອງກັບໂຮສ, ແຕ່ໃນບາງກໍລະນີອາດມີຜົນຂ້າງຄຽງທີ່ບໍ່ຕ້ອງການ ແລະບໍ່ແມ່ນອະແດັບເຕີທັງໝົດທີ່ຮອງຮັບຕົວເລືອກນີ້. ຄລິກຂໍ້ມູນສຳລັບລາຍລະອຽດ %5$sໂໝດ Promiscuous ຕ້ອງການການປະມວນຜົນແພັກເກັດ kernel ຫຼາຍຂຶ້ນ. ນີ້ເຮັດໃຫ້ຄວາມຕ້ອງການສູງຂຶ້ນເລັກນ້ອຍກ່ຽວກັບຊັບພະຍາກອນຂອງລະບົບ, ໂດຍສະເພາະໃນເຄືອຂ່າຍທີ່ຫຍຸ້ງຫຼາຍ ຫຼືໂປຣເຊດເຊີພະລັງງານຕໍ່າ. ການປ່ຽນແປງໃນການປະມວນຜົນແພັກເກັດອາດຈະຊ່ວຍໃຫ້ໂຮສທີ່ເປັນອັນຕະລາຍກວດພົບວ່າອະແດັບເຕີຢູ່ໃນໂໝດ promiscuous ຫຼື 'fingerprint' kernel (ເບິ່ງ %6$s). ອະແດັບເຕີເຄືອຂ່າຍບາງອັນອາດບໍ່ຮອງຮັບ ຫຼືເຮັດວຽກໄດ້ດີໃນໂໝດ promiscuous (ເບິ່ງ %7$s).%8$s"
-
+"%1$sໂໝດທີ່ບໍ່ແມ່ນແບບ promiscuous ຈະຈັບສະເພາະ traffic ທີ່ກ່ຽວຂ້ອງໂດຍກົງກັບ host (ສົ່ງໂດຍມັນ, ສົ່ງ ຫຼືກະຈາຍສຽງໄປຫາມັນ, ຫຼືສົ່ງຜ່ານມັນ) ແລະບໍ່ສະແດງ packets ທີ່ຖືກລະເລີຍໃນລະດັບ adapter ເຄືອຂ່າຍ.%2$s%3$sໂໝດ Promiscuous%4$s (\"sniffing\") ຈັບຂໍ້ມູນທັງໝົດທີ່ເຫັນໂດຍ adapter, ບໍ່ວ່າຈະຖືກຕ້ອງຫຼືກ່ຽວຂ້ອງກັບ host ຫຼືບໍ່, ແຕ່ໃນບາງກໍລະນີອາດມີຜົນຂ້າງຄຽງທີ່ບໍ່ຕ້ອງການ ແລະບໍ່ແມ່ນ adapters ທັງໝົດຮອງຮັບຕົວເລືອກນີ້. ຄລິກທີ່ຂໍ້ມູນສໍາລັບລາຍລະອຽດ %5$sໂໝດ Promiscuous ຕ້ອງການການປະມວນຜົນ packets ຂອງ kernel ຫຼາຍຂຶ້ນ. ນີ້ເຮັດໃຫ້ຄວາມຕ້ອງການສູງຂຶ້ນເລັກນ້ອຍກ່ຽວກັບຊັບພະຍາກອນຂອງລະບົບ, ໂດຍສະເພາະໃນເຄືອຂ່າຍທີ່ຫຍຸ້ງຫຼາຍ ຫຼືໂປເຊດເຊີພະລັງງານຕໍ່າ. ການປ່ຽນແປງໃນການປະມວນຜົນ packet ອາດຈະຊ່ວຍໃຫ້ host ທີ່ເປັນອັນຕະລາຍກວດພົບວ່າ adapter ຢູ່ໃນໂໝດ promiscuous ຫຼື 'fingerprint' kernel (ເບິ່ງ %6$s). adapters ເຄືອຂ່າຍບາງອັນອາດຈະບໍ່ຮອງຮັບ ຫຼືເຮັດວຽກໄດ້ດີໃນໂໝດ promiscuous (ເບິ່ງ %7$s).%8$s"
 #: src/usr/local/www/diag_packet_capture.php:375
 msgid "IPv4 Only"
 msgstr "IPv4 ເທົ່ານັ້ນ"
@@ -12117,8 +12113,8 @@ msgid "Select the type of traffic to be captured."
 msgstr "ເລືອກປະເພດການຈະລາຈອນທີ່ຈະຈັບພາບ."
 
 #: src/usr/local/www/diag_packet_capture.php:385
-msgid "Select the protocol to capture, or "Any". "
-msgstr "ເລືອກໂປຣໂຕຄອນທີ່ຈະຈັບພາບ, ຫຼື "ໃດໆ"."
+msgid "Select the protocol to capture, or \"Any\". "
+msgstr "ເລືອກໂປຣໂຕຄອນທີ່ຈະຈັບພາບ, ຫຼື \"Any\"."
 
 #: src/usr/local/www/diag_packet_capture.php:389
 msgid "Host Address"
@@ -12129,15 +12125,14 @@ msgstr "ທີ່ຢູ່ໂຮສ"
 msgid ""
 "This value is either the Source or Destination IP address, subnet in CIDR "
 "notation, or MAC address.%1$sMatching can be negated by preceding the value "
-"with "!". Multiple IP addresses or CIDR subnets may be specified. Comma "
-"(",") separated values perform a boolean "AND". Separating with a pipe "
-"("|") performs a boolean "OR".%1$sMAC addresses must be entered in colon-"
+"with \"!\". Multiple IP addresses or CIDR subnets may be specified. Comma "
+"(\",\") separated values perform a boolean \"AND\". Separating with a pipe "
+"(\"|\") performs a boolean \"OR\".%1$sMAC addresses must be entered in colon-"
 "separated format, such as xx:xx:xx:xx:xx:xx or a partial address consisting "
 "of one (xx), two (xx:xx), or four (xx:xx:xx:xx) segments.%1$sIf this field "
 "is left blank, all packets on the specified interface will be captured."
 msgstr ""
-"ຄ່ານີ້ແມ່ນທີ່ຢູ່ IP ແຫຼ່ງທີ່ມາ ຫຼືປາຍທາງ, ຊັບເນັດໃນເຄື່ອງໝາຍ CIDR, ຫຼືທີ່ຢູ່ MAC.%1$sການຈັບຄູ່ສາມາດຖືກປະຕິເສດໄດ້ໂດຍການນຳໜ້າຄ່າດ້ວຍ "!". ສາມາດລະບຸທີ່ຢູ່ IP ຫຼືຊັບເນັດ CIDR ຫຼາຍອັນໄດ້. ຄ່າທີ່ຂັ້ນດ້ວຍເຄື່ອງໝາຍຈຸດ (",") ປະຕິບັດ boolean "AND". ການແຍກດ້ວຍທໍ່ ("|") ປະຕິບັດ boolean "OR".%1$sທີ່ຢູ່ MAC ຕ້ອງຖືກປ້ອນໃນຮູບແບບທີ່ຂັ້ນດ້ວຍຈໍ້າສອງຈຸດ, ເຊັ່ນ xx:xx:xx:xx:xx:xx ຫຼືທີ່ຢູ່ບາງສ່ວນທີ່ປະກອບດ້ວຍໜຶ່ງ (xx), ສອງ (xx:xx), ຫຼືສີ່ (xx:xx:xx:xx) ສ່ວນ.%1$sຖ້າຊ່ອງນີ້ຖືກປ່ອຍຫວ່າງ, ແພັກເກັດທັງໝົດໃນອິນເຕີເຟດທີ່ລະບຸຈະຖືກຈັບພາບ."
-
+"ຄ່າ​ນີ້​ແມ່ນ​ທັງ IP address ຂອງ Source ຫຼື Destination, subnet ໃນ​ຮູບ​ແບບ CIDR, ຫຼື MAC address.%1$sການ​ຈັບ​ຄູ່​ສາ​ມາດ​ຖືກ​ປະ​ຕິ​ເສດ​ໂດຍ​ການ​ນຳ​ໜ້າ​ຄ່າ​ດ້ວຍ \"!\". IP addresses ຫຼາຍ​ອັນ ຫຼື CIDR subnets ສາ​ມາດ​ຖືກ​ລະ​ບຸ. ຄ່າ​ທີ່​ຂັ້ນ​ດ້ວຍ​ເຄື່ອງ​ໝາຍ​ຈຸດ (\",\") ປະ​ຕິ​ບັດ boolean \"AND\". ການ​ແຍກ​ດ້ວຍ​ທໍ່ (\"|\") ປະ​ຕິ​ບັດ boolean \"OR\".%1$sMAC addresses ຕ້ອງ​ຖືກ​ປ້ອນ​ໃນ​ຮູບ​ແບບ​ທີ່​ຂັ້ນ​ດ້ວຍ​ເຄື່ອງ​ໝາຍ​ຈຸດ, ເຊັ່ນ xx:xx:xx:xx:xx:xx ຫຼື​ທີ່​ຢູ່​ບາງ​ສ່ວນ​ທີ່​ປະ​ກອບ​ດ້ວຍ​ໜຶ່ງ (xx), ສອງ (xx:xx), ຫຼື​ສີ່ (xx:xx:xx:xx) segments.%1$sຖ້າ​ຊ່ອງ​ຂໍ້​ມູນ​ນີ້​ຖືກ​ປະ​ໄວ້​ຫວ່າງ​เปล่า, packets ທັງ​ໝົດ​ໃນ interface ທີ່​ລະ​ບຸ​ຈະ​ຖືກ​ຈັບ."
 #: src/usr/local/www/diag_packet_capture.php:401
 #: src/usr/local/www/status_upnp.php:74
 #: src/usr/local/www/firewall_nat_edit.php:393
@@ -12153,11 +12148,11 @@ msgstr "ພອດ"
 msgid ""
 "The port can be either the source or destination port. The packet capture "
 "will look for this port in either field. Matching can be negated by "
-"preceding the value with "!". Multiple ports may be specified. Comma "
-"(",") separated values perform a boolean "AND". Separating with a pipe "
-"("|") performs a boolean "OR".Leave blank if not filtering by port."
+"preceding the value with \"!\". Multiple ports may be specified. Comma "
+"(\",\") separated values perform a boolean \"AND\". Separating with a pipe "
+"(\"|\") performs a boolean \"OR\".Leave blank if not filtering by port."
 msgstr ""
-"ພອດສາມາດເປັນພອດແຫຼ່ງທີ່ມາ ຫຼືປາຍທາງ. ການຈັບພາບແພັກເກັດຈະຊອກຫາພອດນີ້ໃນທັງສອງຊ່ອງ. ການຈັບຄູ່ສາມາດຖືກປະຕິເສດໄດ້ໂດຍການນຳໜ້າຄ່າດ້ວຍ "!". ສາມາດລະບຸຫຼາຍພອດໄດ້. ຄ່າທີ່ຂັ້ນດ້ວຍເຄື່ອງໝາຍຈຸດ (",") ປະຕິບັດ boolean "AND". ການແຍກດ້ວຍທໍ່ ("|") ປະຕິບັດ boolean "OR". ປ່ອຍຫວ່າງໄວ້ຖ້າບໍ່ກັ່ນຕອງຕາມພອດ."
+"ພອດສາມາດເປັນພອດ source ຫຼື destination. ການຈັບ packet ຈະຊອກຫາພອດນີ້ໃນທັງສອງຊ່ອງ. ການຈັບຄູ່ສາມາດຖືກປະຕິເສດໂດຍການນຳໜ້າຄ່າດ້ວຍ \"!\". ຫຼາຍພອດສາມາດຖືກລະບຸ. ຄ່າທີ່ຂັ້ນດ້ວຍເຄື່ອງໝາຍຈຸດ (\",\") ປະຕິບັດ boolean \"AND\". ການແຍກດ້ວຍທໍ່ (\"|\") ປະຕິບັດ boolean \"OR\". ປ່ອຍຫວ່າງໄວ້ຖ້າບໍ່ກັ່ນຕອງຕາມພອດ."
 
 #: src/usr/local/www/diag_packet_capture.php:410
 msgid "Packet Length"
