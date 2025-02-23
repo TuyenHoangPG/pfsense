@@ -21671,10 +21671,10 @@ msgstr "*ທີ່ຢູ່ເຊີບເວີ"
 #, php-format
 msgid ""
 "Enter the IP address the PPPoE server should give to clients for use as "
-"their "gateway".%1$sTypically this is set to an unused IP just outside of "
+"their \"gateway\".%1$sTypically this is set to an unused IP just outside of "
 "the client range.%1$sNOTE: This should NOT be set to any IP address "
 "currently in use on this firewall."
-msgstr "ປ້ອນທີ່ຢູ່ IP ທີ່ເຊີບເວີ PPPoE ຄວນໃຫ້ລູກຄ້າໃຊ້ເປັນ "ເກດເວ" ຂອງພວກເຂົາ.%1$sໂດຍທົ່ວໄປນີ້ຖືກຕັ້ງເປັນ IP ທີ່ບໍ່ໄດ້ໃຊ້ພຽງແຕ່ຢູ່ນອກຂອບເຂດລູກຄ້າ.%1$sໝາຍເຫດ: ນີ້ບໍ່ຄວນຖືກຕັ້ງເປັນທີ່ຢູ່ IP ໃດໆທີ່ໃຊ້ຢູ່ໃນໄຟວໍນີ້ໃນປັດຈຸບັນ."
+msgstr "ປ້ອນທີ່ຢູ່ IP ທີ່ເຊີບເວີ PPPoE ຄວນໃຫ້ລູກຄ້າໃຊ້ເປັນ \"gateway\" ຂອງພວກເຂົາ.%1$sໂດຍທົ່ວໄປນີ້ຖືກຕັ້ງເປັນ IP ທີ່ບໍ່ໄດ້ໃຊ້ພຽງແຕ່ຢູ່ນອກຂອບເຂດລູກຄ້າ.%1$sໝາຍເຫດ: ນີ້ບໍ່ຄວນຖືກຕັ້ງເປັນທີ່ຢູ່ IP ໃດໆທີ່ໃຊ້ຢູ່ໃນໄຟວໍນີ້ໃນປັດຈຸບັນ."
 
 #: src/usr/local/www/services_pppoe_edit.php:362
 msgid "*Remote Address Range"
@@ -21906,9 +21906,9 @@ msgstr "ຄຳສັ່ງທີ່ປ້ອນຢູ່ນີ້ຈະຖືກ
 
 #: src/usr/local/www/services_ntpd_gps.php:585
 msgid ""
-"Calculates and appends checksum and missing special characters "$\" and "
+"Calculates and appends checksum and missing special characters \"$\" and "
 "\"*\". May not work with some GPS models."
-msgstr "ຄຳນວນ ແລະເພີ່ມ checksum ແລະຕົວອັກສອນພິເສດທີ່ຂາດຫາຍໄປ \"$" ແລະ "*". ອາດຈະບໍ່ເຮັດວຽກກັບ GPS ບາງລຸ້ນ."
+msgstr "ຄຳນວນ ແລະເພີ່ມ checksum ແລະຕົວອັກສອນພິເສດທີ່ຂາດຫາຍໄປ \"$\" ແລະ \"*\". ອາດຈະບໍ່ເຮັດວຽກກັບ GPS ບາງລຸ້ນ."
 
 #: src/usr/local/www/services_ntpd_gps.php:587
 msgid "NMEA Checksum Calculator"
@@ -21920,9 +21920,9 @@ msgstr "ຄຳນວນ"
 
 #: src/usr/local/www/services_ntpd_gps.php:613
 msgid ""
-"Enter the text between &quot;$" and "*" of a NMEA command "
+"Enter the text between &quot;$&quot; and &quot;*&quot; of a NMEA command "
 "string:"
-msgstr "ປ້ອນຂໍ້ຄວາມລະຫວ່າງ "$&quot; ແລະ &quot;*&quot; ຂອງສະຕຣິງຄຳສັ່ງ NMEA:"
+msgstr "ປ້ອນຂໍ້ຄວາມລະຫວ່າງ &quot;$&quot; ແລະ &quot;*&quot; ຂອງສະຕຣິງຄຳສັ່ງ NMEA:"
 
 #: src/usr/local/www/services_rfc2136_edit.php:89
 msgid "Key name"
@@ -22147,8 +22147,8 @@ msgid "A valid destination must be specified."
 msgstr "ຕ້ອງລະບຸປາຍທາງທີ່ຖືກຕ້ອງ."
 
 #: src/usr/local/www/firewall_nat_out_edit.php:219
-msgid "Negating destination address of "any" is invalid."
-msgstr "ການປະຕິເສດທີ່ຢູ່ປາຍທາງຂອງ "ໃດໆ" ບໍ່ຖືກຕ້ອງ."
+msgid "Negating destination address of \"any\" is invalid."
+msgstr "ການປະຕິເສດທີ່ຢູ່ປາຍທາງຂອງ \"any\" ບໍ່ຖືກຕ້ອງ."
 
 #: src/usr/local/www/firewall_nat_out_edit.php:224
 msgid "A valid target IP address must be specified."
@@ -22171,9 +22171,9 @@ msgstr "ສາມາດເລືອກຕົວເລືອກພູລ Round Ro
 
 #: src/usr/local/www/firewall_nat_out_edit.php:256
 msgid ""
-"Incorrect format for source-hash key, "0x" must be followed by exactly 32 "
+"Incorrect format for source-hash key, \"0x\" must be followed by exactly 32 "
 "hexadecimal characters."
-msgstr "ຮູບແບບບໍ່ຖືກຕ້ອງສຳລັບຄີ source-hash, "0x" ຕ້ອງຕາມດ້ວຍຕົວອັກສອນເລກຖານສິບຫົກ 32 ຕົວຢ່າງແນ່ນອນ."
+msgstr "ຮູບແບບບໍ່ຖືກຕ້ອງສຳລັບຄີ source-hash, \"0x\" ຕ້ອງຕາມດ້ວຍຕົວອັກສອນເລກຖານສິບຫົກ 32 ຕົວຢ່າງແນ່ນອນ."
 
 #: src/usr/local/www/firewall_nat_out_edit.php:384
 msgid "Firewall: NAT: Outbound - saved/edited outbound NAT mapping."
