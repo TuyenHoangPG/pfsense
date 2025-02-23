@@ -18016,6 +18016,7 @@ msgid ""
 "Enter any additional options to add for this client specific override, "
 "separated by a semicolon. %1$sEXAMPLE: push \"route 10.0.0.0 255.255.255."
 "0\";"
+msgstr ""
 "ປ້ອນຕົວເລືອກເພີ່ມເຕີມໃດໆທີ່ຈະເພີ່ມສໍາລັບການຂຽນທັບສະເພາະລູກຄ້ານີ້, ແຍກດ້ວຍເຄື່ອງໝາຍ semicolon. %1$sຕົວຢ່າງ: push \"route 10.0.0.0 255.255.255.0\";"
 
 #: src/usr/local/www/vpn_openvpn_csc.php:690
@@ -20097,13 +20098,13 @@ msgstr "ຜູ້ໃຊ້ຫຼາຍຄົນ"
 
 #: src/usr/local/www/system_usermanager.php:187
 #, php-format
-msgid "Removed certificate association "%s" from user %s"
-msgstr "ລຶບການເຊື່ອມໂຍງໃບຢັ້ງຢືນ "%s" ອອກຈາກຜູ້ໃຊ້ %s ແລ້ວ"
+msgid "Removed certificate association \"%s\" from user %s"
+msgstr "ລຶບການເຊື່ອມໂຍງໃບຢັ້ງຢືນ \"%s\" ອອກຈາກຜູ້ໃຊ້ %s ແລ້ວ"
 
 #: src/usr/local/www/system_usermanager.php:197
 #, php-format
-msgid "Removed Privilege "%s" from user %s"
-msgstr "ລຶບສິດທິພິເສດ "%s" ອອກຈາກຜູ້ໃຊ້ %s ແລ້ວ"
+msgid "Removed Privilege \"%s\" from user %s"
+msgstr "ລຶບສິດທິພິເສດ \"%s\" ອອກຈາກຜູ້ໃຊ້ %s ແລ້ວ"
 
 #: src/usr/local/www/system_usermanager.php:236
 msgid "The username is longer than 32 characters."
@@ -20212,12 +20213,12 @@ msgid "Member of"
 msgstr "ສະມາຊິກຂອງ"
 
 #: src/usr/local/www/system_usermanager.php:908
-msgid "Move to "Member of" list"
-msgstr "ຍ້າຍໄປລາຍການ "ສະມາຊິກຂອງ""
+msgid "Move to \"Member of\" list"
+msgstr "ຍ້າຍໄປລາຍການ \"ສະມາຊິກຂອງ\""
 
 #: src/usr/local/www/system_usermanager.php:915
-msgid "Move to "Not member of" list"
-msgstr "ຍ້າຍໄປລາຍການ "ບໍ່ແມ່ນສະມາຊິກຂອງ""
+msgid "Move to \"Not member of\" list"
+msgstr "ຍ້າຍໄປລາຍການ \"ບໍ່ແມ່ນສະມາຊິກຂອງ\""
 
 #: src/usr/local/www/system_usermanager.php:928
 #: src/usr/local/www/system_usermanager.php:934
@@ -20336,8 +20337,8 @@ msgid "An IPv6 gateway can not be assigned in IPv4 rules."
 msgstr "ເກດເວ IPv6 ບໍ່ສາມາດຖືກມອບໝາຍໃນກົດລະບຽບ IPv4."
 
 #: src/usr/local/www/firewall_rules_edit.php:412
-msgid "The '\' character is not allowed in the Description field."
-msgstr "ຕົວອັກສອນ '\' ບໍ່ໄດ້ຮັບອະນຸຍາດໃນຊ່ອງຄຳອະທິບາຍ."
+msgid "The '\\' character is not allowed in the Description field."
+msgstr "ຕົວອັກສອນ '\\' ບໍ່ໄດ້ຮັບອະນຸຍາດໃນຊ່ອງຄຳອະທິບາຍ."
 
 #: src/usr/local/www/firewall_rules_edit.php:507
 #, php-format
@@ -20783,8 +20784,8 @@ msgid "ICMP subtypes"
 msgstr "ປະເພດຍ່ອຍ ICMP"
 
 #: src/usr/local/www/firewall_rules_edit.php:1386
-msgid ""
-msgstr ""
+msgid "*"
+msgstr "*"
 
 #: src/usr/local/www/firewall_rules_edit.php:1389
 msgid " not"
@@ -21018,8 +21019,8 @@ msgstr "ປ່ອຍເປັນ 'none' ເພື່ອໃຫ້ກົດລະ�
 msgid ""
 "Leave as 'default' to use the system routing table. Or choose a gateway to "
 "utilize policy based routing. %sGateway selection is not valid for "
-""IPV4+IPV6" address family."
-msgstr "ປ່ອຍເປັນ 'default' ເພື່ອໃຊ້ຕາຕະລາງເສັ້ນທາງຂອງລະບົບ. ຫຼືເລືອກເກດເວເພື່ອໃຊ້ການເສັ້ນທາງຕາມນະໂຍບາຍ. %sການເລືອກເກດເວບໍ່ຖືກຕ້ອງສຳລັບຄອບຄົວທີ່ຢູ່ "IPV4+IPV6"."
+"\"IPV4+IPV6\" address family."
+msgstr "ປ່ອຍເປັນ 'default' ເພື່ອໃຊ້ຕາຕະລາງເສັ້ນທາງຂອງລະບົບ. ຫຼືເລືອກເກດເວເພື່ອໃຊ້ການເສັ້ນທາງຕາມນະໂຍບາຍ. %sການເລືອກເກດເວບໍ່ຖືກຕ້ອງສຳລັບຄອບຄົວທີ່ຢູ່ \"IPV4+IPV6\"."
 
 #: src/usr/local/www/firewall_rules_edit.php:1744
 msgid "In / Out pipe"
@@ -21474,8 +21475,8 @@ msgstr "ລະຫັດເບິ່ງຄືວ່າໄດ້ສ້າງຂໍ
 #, php-format
 msgid ""
 "Note that the line number in the full PHP response will be %s lines too "
-"large. Nested code and eval() errors may incorrectly point to "line 1"."
-msgstr "ໃຫ້ສັງເກດວ່າເລກແຖວໃນການຕອບສະໜອງ PHP ເຕັມຈະໃຫຍ່ເກີນໄປ %s ແຖວ. ລະຫັດທີ່ຊ້ອນກັນ ແລະຂໍ້ຜິດພາດ eval() ອາດຊີ້ໄປຫາ "ແຖວ 1" ຢ່າງບໍ່ຖືກຕ້ອງ."
+"large. Nested code and eval() errors may incorrectly point to \"line 1\"."
+msgstr "ໃຫ້ສັງເກດວ່າເລກແຖວໃນການຕອບສະໜອງ PHP ເຕັມຈະໃຫຍ່ເກີນໄປ %s ແຖວ. ລະຫັດທີ່ຊ້ອນກັນ ແລະຂໍ້ຜິດພາດ eval() ອາດຊີ້ໄປຫາ \"line 1\" ຢ່າງບໍ່ຖືກຕ້ອງ."
 
 #: src/usr/local/www/diag_command.php:301
 msgid "Error locator:"
