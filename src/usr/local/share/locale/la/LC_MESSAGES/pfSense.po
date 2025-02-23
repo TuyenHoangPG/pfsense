@@ -22867,6 +22867,7 @@ msgid ""
 "authentication only if the captive portal doesn't know where to redirect "
 "them. This field will be accessible through $PORTAL_REDIRURL$ variable in "
 "captiveportal's HTML pages."
+msgstr ""
 "ຕັ້ງຄ່າ URL ການປ່ຽນເສັ້ນທາງເລີ່ມຕົ້ນ. ຜູ້ເຂົ້າຊົມຈະຖືກປ່ຽນເສັ້ນທາງໄປຫາ URL ນີ້ຫຼັງຈາກການກວດສອບພຽງແຕ່ຖ້າ captive portal ບໍ່ຮູ້ວ່າຈະປ່ຽນເສັ້ນທາງພວກເຂົາໄປໃສ. ຟິວນີ້ຈະສາມາດເຂົ້າເຖິງໄດ້ຜ່ານຕົວແປ $PORTAL_REDIRURL$ ໃນໜ້າ HTML ຂອງ captiveportal."
 
 #: src/usr/local/www/services_captiveportal.php:631
@@ -23009,7 +23010,8 @@ msgid ""
 "&quot;$PORTAL_ZONE$&quot;&gt;%1$s&nbsp;&nbsp;&nbsp;&lt;input name="
 "&quot;accept&quot; type=&quot;submit&quot; value="
 "&quot;Continue&quot;&gt;%1$s&lt;/form&gt;"
-msgstr "ອັບໂຫຼດໄຟລ໌ HTML/PHP ສຳລັບໜ້າພータルຢູ່ນີ້ (ປ່ອຍຫວ່າງໄວ້ເພື່ອຮັກສາໄຟລ໌ປັດຈຸບັນ). ໃຫ້ແນ່ໃຈວ່າໄດ້ລວມເອົາຟອມ (POST ໄປຫາ \"$PORTAL_ACTION$\") ພ້ອມປຸ່ມສົ່ງ (ຊື່=\"accept\") ແລະຊ່ອງທີ່ເຊື່ອງໄວ້ດ້ວຍຊື່=\"redirurl\" ແລະຄ່າ=\"$PORTAL_REDIRURL$\". ລວມເອົາຊ່ອງປ້ອນຂໍ້ມູນ \"auth_user\" ແລະ \"auth_pass\" ແລະ/ຫຼື \"auth_voucher"\ ຖ້າການກວດສອບສິດຖືກເປີດໃຊ້ງານ, ຖ້າບໍ່ດັ່ງນັ້ນມັນຈະລົ້ມເຫຼວສະເໝີ.%1$sລະຫັດຕົວຢ່າງສຳລັບຟອມ: %1$s&lt;form method="
+msgstr ""
+"ອັບໂຫຼດໄຟລ໌ HTML/PHP ສໍາລັບໜ້າປະຕູທີ່ນີ້ (ປ່ອຍຫວ່າງໄວ້ເພື່ອຮັກສາອັນປັດຈຸບັນ). ໃຫ້ແນ່ໃຈວ່າຈະລວມເອົາແບບຟອມ (POST ຫາ \"$PORTAL_ACTION$\") ດ້ວຍປຸ່ມສົ່ງ (name=\"accept\") ແລະຊ່ອງຂໍ້ມູນທີ່ເຊື່ອງໄວ້ດ້ວຍ name=\"redirurl\" ແລະ value=\"$PORTAL_REDIRURL$\". ລວມເອົາຊ່ອງປ້ອນຂໍ້ມູນ \"auth_user\" ແລະ \"auth_pass\" ແລະ/ຫຼື \"auth_voucher\" ຖ້າເປີດໃຊ້ການກວດສອບ, ຖ້າບໍ່ດັ່ງນັ້ນມັນຈະລົ້ມເຫລວສະເໝີ.%1$sຕົວຢ່າງລະຫັດສໍາລັບແບບຟອມ: %1$s&lt;form method="
 "&quot;post&quot; action="
 "&quot;$PORTAL_ACTION$&quot;&gt;%1$s&nbsp;&nbsp;&nbsp;&lt;input name="
 "&quot;auth_user&quot; type="
@@ -23052,16 +23054,11 @@ msgstr "ເນື້ອໃນໜ້າຂໍ້ຜິດພາດການກວ
 #: src/usr/local/www/services_captiveportal.php:789
 msgid ""
 "The contents of the HTML/PHP file that is uploaded here are displayed when "
-"an authentication error occurs. It may include "PORTAL 
-M
-​
- ESSAGE", which "
+"an authentication error occurs. It may include \"$PORTAL_MESSAGE$\", which "
 "will be replaced by the error or reply messages from the RADIUS server, if "
 "any."
-msgstr "ເນື້ອໃນຂອງໄຟລ໌ HTML/PHP ທີ່ອັບໂຫຼດຢູ່ນີ້ຈະຖືກສະແດງເມື່ອເກີດຂໍ້ຜິດພາດການກວດສອບສິດ. ມັນອາດຈະລວມເອົາ "PORTAL 
-M
-​
- ESSAGE", ເຊິ່ງຈະຖືກປ່ຽນແທນດ້ວຍຂໍ້ຜິດພາດ ຫຼືຂໍ້ຄວາມຕອບກັບຈາກເຊີບເວີ RADIUS, ຖ້າມີ."
+msgstr ""
+"ເນື້ອໃນຂອງໄຟລ໌ HTML/PHP ທີ່ອັບໂຫຼດຢູ່ທີ່ນີ້ຈະຖືກສະແດງເມື່ອເກີດຂໍ້ຜິດພາດໃນການກວດສອບ. ມັນອາດຈະປະກອບມີ \"$PORTAL_MESSAGE$\", ເຊິ່ງຈະຖືກແທນທີ່ດ້ວຍຂໍ້ຄວາມຜິດພາດຫຼືການຕອບກັບຈາກເຊີບເວີ RADIUS, ຖ້າມີ."
 
 #: src/usr/local/www/services_captiveportal.php:794
 msgid "Current Auth Error Page"
@@ -28055,11 +28052,6 @@ msgid ""
 msgstr ""
 "ກວດສອບຕົວເລືອກນີ້ເພື່ອເປີດໃຊ້ການແຈ້ງເຕືອນ Pushover. <br>ລະຫັດ API ຈະຕ້ອງຖືກສ້າງຂື້ນແລະປ້ອນເຂົ້າພ້ອມກັບລະຫັດຜູ້ໃຊ້ບັນຊີ Pushover. <a href="
 "\"https://pushover.net/api#registration\" target=\"_blank\">ເອກະສານ API.</a>"
-
-#: src/usr/local/www/system_advanced_notifications.php:253
-msgid "API Key"
-msgstr ""
-"ລະຫັດ API"
 
 #: src/usr/local/www/system_advanced_notifications.php:257
 msgid ""
