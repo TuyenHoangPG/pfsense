@@ -54,7 +54,7 @@ $g = [
 	'acbbackuppath' => '/cf/conf/acb/',
 	'event_address' => 'unix:///var/run/check_reload_status',
 	'factory_shipped_username' => 'admin',
-	'factory_shipped_password' => 'pfsense',
+	'factory_shipped_password' => 'vggfirewall',
 	'upload_path' => '/root',
 	'dhcpd_chroot_path' => '/var/dhcpd',
 	'unbound_chroot_path' => '/var/unbound',
@@ -71,11 +71,11 @@ $g = [
 	'cf_path' => '/cf',
 	'cf_conf_path' => '/cf/conf',
 	'www_path' => '/usr/local/www',
-	'xml_rootobj' => 'pfsense',
+	'xml_rootobj' => 'vggfirewall',
 	'admin_group' => 'admins',
-	'product_name' => 'libreSense',
-	'product_label' => 'pfSense',
-	'product_label_html' => 'Netgate pfSense<sup>&#174;</sup>',
+	'product_name' => 'VGG Firewall',
+	'product_label' => 'VGG Firewall',
+	'product_label_html' => 'VGG Firewall<sup>&#174;</sup>',
 	'product_version' => $product_version,
 	'product_copyright_years' => '2004 - ' . $present_year,
 	'disablehelpmenu' => false,
@@ -197,7 +197,7 @@ if (($machine_type == 'arm') || ($machine_type == 'arm64')) {
 /* Read all XML files in following dir and load menu entries */
 $g['ext_menu_path'] = '/usr/local/share/'. g_get('product_name') . '/menu';
 
-/* Cache file used to store pfSense version */
+/* Cache file used to store VGG Firewall version */
 $g['version_cache_file'] = g_get('varrun_path') . '/' . g_get('product_name') . '_version';
 $g['version_cache_refresh'] = 7200; /* 2h */
 
@@ -569,7 +569,7 @@ function get_ipprotocols(?string $type = ''):array {
 	return array_diff($ipprotocols, $exclude);
 }
 
-// source pfSense Plus specific globals last
+// source VGG Firewall Plus specific globals last
 if (can_include('globals.plus.inc')) {
 	include_once('globals.plus.inc');
 }
