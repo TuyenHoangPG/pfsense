@@ -3199,24 +3199,9 @@ function set_language() {
 
 function get_locale_list() {
 	$locales = array(
-		"bs" => gettext("Bosnian"),
-		"zh_CN" => gettext("Chinese"),
-		"zh_Hans_CN" => gettext("Chinese (Simplified, China)"),
-		"zh_Hans_HK" => gettext("Chinese (Simplified, Hong Kong SAR China)"),
-		"zh_Hant_TW" => gettext("Chinese (Traditional, Taiwan)"),
-		"nl_NL" => gettext("Dutch"),
+		"vi" => gettext("Vietnamese"),
 		"en_US" => gettext("English"),
-		"fr_FR" => gettext("French"),
-		"de_DE" => gettext("German (Germany)"),
-		"it_IT" => gettext("Italian"),
-		"ko_FR" => gettext("Korean"),
-		"nb_NO" => gettext("Norwegian Bokmål"),
-		"pl_PL" => gettext("Polish"),
-		"pt_PT" => gettext("Portuguese"),
-		"pt_BR" => gettext("Portuguese (Brazil)"),
-		"ru_RU" => gettext("Russian"),
-		"es_ES" => gettext("Spanish"),
-		"es_AR" => gettext("Spanish (Argentina)"),
+		"la" => gettext("Lao"),
 	);
 
 	// If the locales are sorted, the order changes depending on the language selected. If the user accidentally
